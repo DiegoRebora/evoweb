@@ -1,0 +1,3 @@
+-- Hacer que la galería y el carrusel se sincronicen.
+-- Fijarse temas botones del carrusel
+-- RESPONSIVE!!! 

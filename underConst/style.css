@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('../images/consult1.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  .logo-med {
+    max-width: 15%;
+    max-height: 15%;
+    justify-content: center;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&display=swap');
+
+@font-face {
+    font-family: "Bakerie";
+    src: url(../fonts/BakerieSmooth-Medium.ttf);
+}
+@font-face {
+    font-family: "Aniyah";
+    src: url(../fonts/aniyah-free.ttf);
+}
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+a {
+  color: #b1f0dc!important;
+}
+.home-header{
+    height: 100vh;
+
+}
+
+.container-home {
+    background-color: #badeeae6;
+    height: 600px;
+    width: 600px;
+    border-radius: 8%;
+}
+
+.home-consultorio {
+    color: #186e98;
+    font-weight: 500;
+    font-family: "Bakerie", sans-serif;
+    font-size: x-large;
+}
+
+.home-title{
+    color: #186e98;
+    font-weight: 500;
+    font-family: "Aniyah", sans-serif;
+    font-size: medium;
+}
+
+.nav-item:first-child {
+    margin-right: 20px;
+}
+
+.btn-success {
+    background-color: #25D366;
+    border-color: #25D366;
+    margin-left: 20px;
+}
+
+.bi-instagram {
+    color: #FF6EC7;
+}
+
+.bi-whatsapp {
+    color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container-home {
+      width: 100%;
+      border-radius: 8%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .home-header {
+      height: auto;
+      margin-top: 10%;
+    }
+  
+    .container-home {
+      height: auto;
+      padding: 20px;
+      margin-top: 10%
+    }
+  }

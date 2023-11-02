@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',"Aniyah", "Bakerie"
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-attachment: fixed;
+    color: white;
+  }
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  }
+
+
+.left-container {
+    flex:1;
+}
+
+.nav-pills {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+ .titulo {
+    color: var(--colorlgblue);
+    font-family: "Aniyah", sans-serif;
+    font-size: xx-large;
+    margin-right: 40px;
+    margin-left: 25px;
+    font-weight: 5000;
+
+ } 
+ .titulocons  {
+    color: var(--colorlgblue);
+    font-weight: 500;
+    font-family: "Bakerie", sans-serif;
+    font-size: xx-large;
+    padding-top: 5px;
+}
+ @font-face {
+    font-family: "Bakerie";
+    src: url(./fonts/BakerieSmooth-Medium.ttf);
+}
+@font-face {
+    font-family: "Aniyah";
+    src: url(./fonts/aniyah-free.ttf);
+}
+
+
+:root{ 
+    --colorlgblue: #2E7FC1;
+    --colorWhite:#F5F5F5;
+}
+
+
+.light-custom {
+    color: var(--colorWhite);
+}
+.bg-custom-reverse {
+   background: var(--colorlgblue);
+}
+
+.container {
+    padding: 0px;
+    margin-top: 20px;
+
+}
+.container-fluid {
+    padding: 0px;
+}
+
+.container-espacio {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: auto;
+    margin-left: 50px;
+    
+    
+}
+
+.bi-instagram  {color: rgb(179, 33, 94);
+
+}
+
+.container-fluid {
+ width: 100%;
+}
+
+.slide img {
+    border-radius: 20px;
+}
+header {
+
+    display: flex;
+    max-height: 67vh;
+
+}
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+
+
+#carouselExample {
+    --carousel-width: 52%; 
+    opacity:0.8;
+  }
+.carousel-inner {
+    width:100%;
+}
+
+
+.logo-chico {
+    max-width: 10%;
+    max-height: 10%;
+    align-items: center;
+    transition: transform 1.5s ease-in-out;
+    animation: fade-in 3s ease-in-out forwards;
+}
+.logo-chico:hover {
+    transform: rotate(360deg);
+  }
+.card {
+    border-color: transparent;
+    padding: 10px;
+    margin-top:10px;
+    max-width: 300px;
+}
+.card-img {
+    border-radius: 10px;
+    opacity: 1;
+    max-width: 100%;
+
+}
+
+
+p {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: rgb(43, 42, 42);
+    border: transparent;
+    --bs-btn-hover-bg: gray ;
+    --bs-btn-hover-border-color: gray;
+}
+
+.menu {
+    margin-top: 50px;
+    flex: 0 0 auto;
+}
+.nav-link{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+    color: var(--colorlgblue);
+    white-space: nowrap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&display=swap');
+
+
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.btn-secondary {
+    background-color: var(--colorlgblue);
+    border: transparent;
+    height: auto; 
+    padding: 0.5rem 1rem; 
+}
+
+.btn-secondary a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    color: var(--colorlgblue);;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    font-size: small;
+
+}
+
+.list-inline-item {
+        font-size: 22px;
+        color: white;
+}
+.bi-whatsapp{ 
+    color: rgb(32, 210, 32);
+    font-size: 30px;
+}
+.bi-whatsapp:hover {
+    color: white;
+
+}
+.btn-success {
+    background-color: transparent;
+    border: transparent;
+
+}
+.btn-success:hover {
+    background-color: transparent;
+    border: transparent;
+}
+.col-espec {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 80%;
+    background-color: var(--colorlgblue);
+}
+.col-espec:hover {
+    background-color: lightgrey;
+    color: var(--colorlgblue);
+}
+.tab-pane-espec {
+    width: 100%;
+}
+.tab-pane-qs {
+    width: 100%;
+}
+.container-espec {
+    margin-left:  50px;
+}
+.container-qs {
+    background-color: rgb(231, 226, 226, 0.555)  ;
+    height: 350px;
+    width: 900px;
+    border-radius: 8%;
+    text-align: center;
+    text-justify: center;
+    margin-left: 50px;
+
+}
+#revolucion {
+    
+    font-size: 22px;
+    padding-top: 0px;
+    line-height: 2;
+}
+#revotit {
+    font-size: medium;
+    padding-top:15px;
+}
+#revotit2 {
+    font-size: medium;
+}
+.container-contact {
+    background-color: rgb(231, 226, 226, 0.555) ;
+    height: 350px;
+    width: 900px;
+    border-radius: 8%;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+#turno{
+    text-align-last: center;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.nav-item:first-child {
+    margin-right: 20px;
+}
+
+.btn-success {
+    background-color: #25D366;
+    border-color: #25D366;
+    margin-left: 20px;
+}
+
+.bi-instagram {
+    color: #FF6EC7;
+}
+
+.bi-whatsapp {
+    color: #FFFFFF;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"><!-- link bootstrap CSS-->
+    <script src="https://kit.fontawesome.com/a0fd3005f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/evologoblack.jpeg" type="image/png">
+    <title>EVOUCION CONSULTORIOS - HOMEPAGE</title>
+</head>
+<body>
+  <div class="content-container">
+    <nav class="container-fluid   navbar navbar-expand-lg bg-custom">
+        <div class="row w-100 justify-content-between flex-wrap" id="Home">
+            <img class="logo-chico" src="./images/evopeople.jpeg" href="#Home">
+            <button class=" col-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#v-pills-tab" aria-controls="v-pills-tab" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="col-7 collapse navbar-collapse align-items-center justify-content-center" id="navbarNav">
+                <ul class="navbar-nav custom-nav">
+                  <li class="nav-item">
+                    <h1 class="titulo">Evolucion</h1>
+                  </li>
+                  <li class="nav-item">
+                    <h1 class="titulocons">CONSULTORIOS</h1>
+                </ul>
+
+          </div>
+      
+          <nav>
+            <div class="left-container align-items-between justify-content-center">
+              <div class="d-flex align-items-between menu">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-espacio" type="button" role="tab" aria-controls="v-pills-espacio" aria-selected="true">Nuestro espacio</button>
+                  <button class="nav-link" id="v-pills-especialidades-tab" data-bs-toggle="pill" data-bs-target="#v-pills-especialidades" type="button" role="tab" aria-controls="v-pills-especialidades" aria-selected="false">Especialidades</button>
+                  <button class="nav-link" id="v-pills-quienessomos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-quienessomos" type="button" role="tab" aria-controls="v-pills-quienessomos" aria-selected="false">Quienes somos</button>
+                  <button class="nav-link" id="v-pills-contacto-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contacto" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Contacto</button>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-espacio" role="tabpanel" aria-labelledby="v-pills-espacio-tab" tabindex="0">
+                    <div class="carousel-container">
+                      <div id="carouselExample" class="carousel slide justify-content-end">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img id="carouselImage" src="./images/evologolb.jpeg" autoplay loop muted alt="logoceleste">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-espacio">
+                        <div class="row align-items-end justify-content-center galeria">
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/consult1.jpg" class="card-img" alt="foto consultorio1" onclick="changeCarouselImage('./images/consult1.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/consult2.jpg" class="card-img" alt="foto consultorio2" onclick="changeCarouselImage('./images/consult2.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/didact.jpg" class="card-img" alt="foto consultorio3" onclick="changeCarouselImage('./images/didact.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/consult22.jpg" class="card-img" alt="foto consultorio4" onclick="changeCarouselImage('./images/consult22.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/recep.jpg" class="card-img" alt="foto consultorio5" onclick="changeCarouselImage('./images/recep.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/outdoor.jpg" class="card-img" alt="foto consultorio6" onclick="changeCarouselImage('./images/outdoor.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/recep2.jpg" class="card-img" alt="foto consultorio7" onclick="changeCarouselImage('./images/recep2.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/front2.jpg" class="card-img" alt="foto consultorio7" onclick="changeCarouselImage('./images/front2.jpg')">
+                          </div>
+                          <div class="card col-md-3 col-sm-12">
+                            <img src="./images/evologolb.jpeg" class="card-img" alt="foto consultorio7" onclick="changeCarouselImage('./images/evologolb.jpeg')">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane espec" id="v-pills-especialidades" role="tabpanel" aria-labelledby="v-pills-especialidades-tab" tabindex="0">
+                    <div class="container-espec text-center">
+                      <div class="row row-cols-3 espec">
+                        <div class="col-espec">Psicología</div>
+                        <div class="col-espec">Piscomotricidad</div>
+                        <div class="col-espec">Fonoaudiología</div>
+                        <div class="col-espec">Terapia Ocupacional</div>
+                        <div class="col-espec">Piscopedagogía</div>
+                        <div class="col-espec">Nutrición</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane qs" id="v-pills-quienessomos" role="tabpanel" aria-labelledby="v-pils-quienessomos-tab" tabindex="0">
+                    <div class="qs-header  container-fluid d-flex flex-column justify-content-center align-items-center">
+                      <div class="container-qs  d-flex flex-column justify-content-center">
+                          <h1 class="titulo" id="revotit">Evolucion Conusltorios</h1>
+                             <h2 class="titulocons" id="revolucion">Es el producto de la lucha de dos proletarias profesionales, contra el gran capital transnacional del consultoriado patriarcal, que exprime a les jóvenes terapeutes, forzándoles a vender su fuerza de trabajo, barata, a cambio de muchas horas de atención. En esta dinámica, la patronal resulta ser la única beneficiada, generando un burn out de les profesionales que termina redundando en una peor atención para les pacientes. Contra este sistema es que decidimos levantarnos, creando Evolución como herramienta de lucha para sus trabajadores y de salud y excelencia terapeútica, para sus pacientes. </p>  
+                          <h2 class="titulo" id="revotit2">Hasta la victoria SIEMPRE! </h2>
+                      </div>    
+                    </div>
+                  </div>
+                <div class="tab-pane qs" id="v-pills-contacto" role="tabpanel" aria-labelledby="v-pils-contacto-tab" tabindex="0">
+                      <div class="contact-header  container-fluid d-flex flex-column justify-content-center align-items-center">
+                        <div class="container-contact  d-flex flex-column justify-content-center">
+                            <h2 class="titulocons" id="turno">Para solicitar un turno, escribinos por Whatsapp y/o seguinos en Instagram.</h2>
+                            <nav class='row navbar align-items-center'>
+                              <ul class='nav nav-pills justify-content-center'>
+                                  <li class='nav-item'>
+                                      <a href="https://www.instagram.com/evolucionconsultorios/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="bi-instagram fs-1"></i>
+                                  </li>
+                                  <li class='nav-item'>
+                                      <button type="button" class="btn btn-success">
+                                          <a href="https://wa.me/1122954285?text=Deseo%recibir%información" class="whatsapp-link" target="__blank">
+                                            <i class="bi bi-whatsapp fs-3"></i>
+                                          </a>
+                                        </button>
+                                  </li>
+                              </ul>
+                          </nav>
+                        </div>    
+                      </div>            
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </main>
+        <footer class="footer bg-custom-reverse">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                      <ul class="list-inline mb-2">
+                          <li class="list-inline-item">Copyright &copy; 2023</a></li>
+                          <li class="list-inline-item">DR Devs</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                      <ul class="list-inline mb-0">
+                          <li class="list-inline-item">
+                              <a href="https://instagram.com/suyai.trainingprogram?igshid=MzRlODBiNWFlZA=="><i class="bi-instagram fs-3"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                        
+
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        
+      </footer>
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+
+
+<!--                      <button class="btn btn-primary" onclick="mostrar('mapSaavedra')">Ubicación</button>
+                      <div id="mapSaavedra" style="display: none;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.165072218395!2d-58.477439624816384!3d-34.54937565462931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb690acbac587%3A0xf2ffa04eabeff468!2sSuyai%20Saavedra!5e0!3m2!1ses!2sar!4v1693253859079!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                      </div>
+                    -->
